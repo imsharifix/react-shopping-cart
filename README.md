@@ -37,8 +37,9 @@ src/
 ---
 
 ## 📸 Screenshot
-![Uploading screencapture-localhost-5173-2026-07-21-11_47_59.png…]()
 
+
+<img width="1920" height="3387" alt="screencapture-localhost-5173-2026-07-21-11_47_59" src="https://github.com/user-attachments/assets/c4d75ceb-6df2-4360-ac15-26aebcefd61e" />
 
 
 
