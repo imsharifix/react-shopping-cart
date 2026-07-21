@@ -1,0 +1,58 @@
+/* ================= FOOTER ================= */
+
+.footer{
+    margin-top:70px;
+    background:#111827;
+    color:white;
+    text-align:center;
+    padding:45px 20px;
+}
+
+.footer__title{
+    font-size:30px;
+    margin-bottom:25px;
+    font-weight:700;
+}
+
+.footer__icon{
+    font-size:42px;
+    margin:0 15px;
+    cursor:pointer;
+    transition:.35s;
+}
+
+.footer__icon:hover{
+    color:#00d4ff;
+    transform:translateY(-8px) scale(1.15);
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media(max-width:768px){
+
+    .header{
+        height:65vh;
+    }
+
+    .nav{
+        gap:18px;
+        flex-wrap:wrap;
+        justify-content:center;
+        padding:0 15px;
+    }
+
+    .nav-item__link{
+        font-size:16px;
+    }
+
+    .header__title{
+        font-size:36px;
+        text-align:center;
+        padding:0 20px;
+    }
+
+    .products{
+        width:95%;
+    }
+
+}

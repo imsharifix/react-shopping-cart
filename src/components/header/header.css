@@ -1,0 +1,40 @@
+/* ================= HEADER ================= */
+
+.header{
+    height:55vh;
+    background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+    url("https://images.unsplash.com/photo-1523381210434-271e8be1f52b?auto=format&fit=crop&w=1600&q=80");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.nav{
+    position:absolute;
+    top:30px;
+    display:flex;
+    gap:45px;
+    list-style:none;
+}
+
+.nav-item__link{
+    color:#fff;
+    text-decoration:none;
+    font-size:18px;
+    font-weight:500;
+    transition:.3s;
+}
+
+.nav-item__link:hover{
+    color:#00d4ff;
+}
+
+.header__title{
+    color:white;
+    font-size:55px;
+    letter-spacing:2px;
+    text-shadow:0 10px 20px rgba(0,0,0,.5);
+}
